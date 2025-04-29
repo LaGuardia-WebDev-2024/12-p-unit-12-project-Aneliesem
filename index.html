@@ -74,8 +74,18 @@ Select ONE Additional
 
       $("#mem3-button").click(function () {
         $("#mem3").css("color", "green");
-        $("bahamas").show(3000);
+        $("#bahamas").show(3000);
       });
+      
+      $("h1").css("color", "rgb(144,238,144)");
+      $("h1").html("<u> Top 3 Memories Of This Year");
+      
+      var newH1 = $("<h1>");
+      newH1.text("More Memories");
+      newH1.addClass("More Memories");
+      $("body").append(newH1);
+      
+      
     </script>
   </body>
 </html>
